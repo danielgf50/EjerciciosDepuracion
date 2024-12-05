@@ -14,10 +14,21 @@ public class Ejemplo1While {
         }
         System.out.println("La suma es: " + suma );
     }
+<<<<<<< HEAD
     private int suma, contador;
     public Ejemplo1While() {
     this.suma = 0;
     this.contador = 0;
     }
+=======
+    
+    private int suma, numero;
+
+    public Ejemplo1While() {
+    this.suma = 0;
+    this.numero = 0;
+    }
+    
+>>>>>>> feature/mejoras
 }
 
