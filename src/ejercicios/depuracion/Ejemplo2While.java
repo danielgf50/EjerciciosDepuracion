@@ -11,9 +11,15 @@ public class Ejemplo2While {
         System.out.print("Introduce un número: ");
         n = sc.nextInt();
         while (contador< n){
-               System.out.println(" * ");
+               System.out.println("contador:  "+ contador);
                contador++;
         }
     }
+    
+    public int pedirNumero() {
+    	 Scanner sc = new Scanner(System.in);
+    	 System.out.print("Introduce un número: ");
+    	 return sc.nextInt();
+    	}
 }
 
